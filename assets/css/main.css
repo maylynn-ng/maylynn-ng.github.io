@@ -97,6 +97,10 @@ input, select, textarea {
 	-moz-columns: 2;
 }
 
+.portfolio {
+	display: flex;
+}
+
 /* Row */
 
 	.row {
