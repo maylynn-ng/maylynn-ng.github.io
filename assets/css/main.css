@@ -74,6 +74,14 @@ input, select, textarea {
 	appearance: none;
 }
 
+#logo {
+	width: 100%;
+	margin: 15px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+
 .fa-map-marker {
 	height: 15;
 }
@@ -1335,7 +1343,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), url("images/eyes-only.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1974,6 +1982,9 @@ input, select, textarea {
 
 	#main {
 		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		overflow: hidden;
 		width: 100%;
 		background: #ffffff;
